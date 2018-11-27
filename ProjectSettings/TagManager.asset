@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Platform
+  - Enemy
+  - Victory
   layers:
   - Default
   - TransparentFX
@@ -13,7 +16,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Floor
   - 
   - 
   - 
@@ -40,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 860840135
     locked: 0
